@@ -1,5 +1,7 @@
 
 import 'package:get/get.dart';
+import 'package:startech/binding/changePassword/changePassword_binding.dart';
+import 'package:startech/view/home/screens/changePassword.dart';
 import '../binding/home/home_binding.dart';
 import '../binding/login/login_binding.dart';
 import '../binding/signup/signup_binding.dart';
@@ -37,6 +39,11 @@ class AppPages {
       name: AppRoutes.update,
       page: () => UpdatePage(),
       binding: UpdateBinding(),
+    ),
+    GetPage(
+      name: AppRoutes.changePassword,
+      page: () => ChangePassword(),
+      binding: ChangePasswordBinding(),
     ),
   ];
 }

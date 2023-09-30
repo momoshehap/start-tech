@@ -142,7 +142,7 @@ class SignupPage extends StatelessWidget {
                       ),
                       TextButton(
                         onPressed: () {
-                          Get.offNamed(AppRoutes.signup);
+                          Get.offNamed(AppRoutes.login);
                         },
                         child: const Text(
                           'Login',
